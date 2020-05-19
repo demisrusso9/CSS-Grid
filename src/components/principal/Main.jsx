@@ -3,7 +3,9 @@ import React from 'react'
 export default props => {
     return (
         <>
-            <main class="conteudo">Conteudo</main>
+            <main class="conteudo">
+            {props.children}
+            </main>
         </>
     )
 }

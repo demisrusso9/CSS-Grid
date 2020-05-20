@@ -1,5 +1,5 @@
 import React from 'react'
-import './Destaques.css'
+import '../../assets/css/sections/Destaques.css'
 
 export default () =>
     <section class="destaques">
@@ -31,13 +31,12 @@ export default () =>
                             Aplicativos populares
                     </a>
                 </li>
-
-                <li class="destaques__categorias___item">                 
+                <li class="destaques__categorias___item">
                     <a class="destaques__categorias___link" href="#">
                         <i class="fas fa-list-ol"></i>
                             Jogos populares
                         </a>
-                </li>                
+                </li>
                 <li class="destaques__categorias___item">
                     <a class="destaques__categorias___link" href="#">
                         <i class="far fa-star"></i>
